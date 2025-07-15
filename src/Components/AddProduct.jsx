@@ -3,11 +3,17 @@ import ProductNav from './ProductNav'
 
 const AddProduct = () => {
   return (
-    <div>
+    <div style={{
+        backgroundImage: 'url("https://img.freepik.com/free-photo/top-view-beauty-products-with-copy-space_23-2149446515.jpg?semt=ais_hybrid&w=740")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '100vh'
+      }}>
         <ProductNav/>
         <div className="container">
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div className="bg-light p-4 rounded shadow">
                     <div className="row g-3">
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <label htmlFor="" className="form-label">product name</label>
@@ -46,6 +52,8 @@ const AddProduct = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+
             </div>
         </div>
     </div>
